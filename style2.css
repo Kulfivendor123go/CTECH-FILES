@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body{
+    background: #f9f9f9;
+    min-width: 100vh;
+    overflow-x: hidden;
+    
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 2em;
+    color: #033F63;
+    pointer-events: none;
+    margin-right: 270px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #033F63;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+.navigation a:hover, 
+.navigation a.active{
+    background-color: #28666E;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    top: 2.5;
+    position: absolute;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.parallax img {
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    
+
+}
+.sec{
+    min-height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500%;
+    pointer-events: none;
+    background-color: #26600d;
+    font-size: 30px;
+    
+}
+.margin{
+    min-height: 100vh;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 500%;
+    pointer-events: none;
+    background-color: #26600d;
+    font-size: 30px;
+    
+}
+
+.sec h2, p, h3{
+    padding: 20px 20px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.sec p{
+    padding: 20px 20px;
+    margin: 2px;
+    min-height: 20vh;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+

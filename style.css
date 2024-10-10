@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana;
+
+}
+.page1body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #27282c;
+
+    
+
+}
+
+
+
+
+
+
+    
+
+   
+
+
+    
+
+a
+{
+    
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+a:hover
+{
+    
+    padding: 170px 181px;
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 400px var(--clr);
+    font-size: 0%;
+
+}
+
+a::before
+{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+    stroke: #000;
+    stroke-width: 10%;
+    font-size: 100%;
+    
+}
+
+a span
+{
+    position: relative;
+    z-index: 1;
+
+}
+
+a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+a:hover img {
+    width: 357px; /* Set desired size */
+    height: 350px;
+    opacity: 1;
+}
+
+.sec img{
+    position: absolute;
+    pointer-events: none;
+}
+
+
+
+
+
